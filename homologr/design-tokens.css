@@ -1,0 +1,89 @@
+:root {
+  --cp-orange-50: #fff4ea;
+  --cp-orange-100: #ffe4cc;
+  --cp-orange-200: #ffc999;
+  --cp-orange-300: #ffad66;
+  --cp-orange-400: #f3923a;
+  --cp-orange-500: #e67e22;
+  --cp-orange-600: #c86618;
+  --cp-orange-700: #a95013;
+  --cp-orange-800: #843d0f;
+  --cp-orange-900: #5f2b0a;
+
+  --cp-blue-50: #eef6fb;
+  --cp-blue-100: #d8eaf5;
+  --cp-blue-200: #b2d5e8;
+  --cp-blue-300: #86b9d8;
+  --cp-blue-400: #5794bb;
+  --cp-blue-500: #2c5f8a;
+  --cp-blue-600: #234e72;
+  --cp-blue-700: #1c3f5d;
+  --cp-blue-800: #153147;
+  --cp-blue-900: #0e2232;
+
+  --cp-green-50: #eef7f2;
+  --cp-green-100: #d7ebdd;
+  --cp-green-300: #96c3a7;
+  --cp-green-500: #5e9b76;
+  --cp-green-700: #3d6f52;
+  --cp-green-900: #234331;
+
+  --cp-gray-50: #fafafa;
+  --cp-gray-100: #f2f2f2;
+  --cp-gray-200: #e4e4e4;
+  --cp-gray-300: #cfcfcf;
+  --cp-gray-400: #a8a8a8;
+  --cp-gray-500: #7a7a7a;
+  --cp-gray-600: #5c5c5c;
+  --cp-gray-700: #444444;
+  --cp-gray-800: #2d2d2d;
+  --cp-gray-900: #1a1a1a;
+
+  --cp-success-bg: #eef7f2;
+  --cp-success-text: #3d6f52;
+  --cp-warning-bg: #fff7e6;
+  --cp-warning-text: #9a6200;
+  --cp-error-bg: #fdecec;
+  --cp-error-text: #b42318;
+  --cp-info-bg: #eef6fb;
+  --cp-info-text: #234e72;
+
+  --cp-surface-background: #faf8f5;
+  --cp-surface-white: #ffffff;
+  --cp-text-primary: #2d2d2d;
+  --cp-text-secondary: #5c5c5c;
+  --cp-text-muted: #7a7a7a;
+  --cp-text-inverse: #ffffff;
+
+  --cp-font-heading: "Poppins", sans-serif;
+  --cp-font-body: "Inter", sans-serif;
+
+  --cp-space-1: 4px;
+  --cp-space-2: 8px;
+  --cp-space-3: 12px;
+  --cp-space-4: 16px;
+  --cp-space-5: 20px;
+  --cp-space-6: 24px;
+  --cp-space-8: 32px;
+  --cp-space-10: 40px;
+  --cp-space-12: 48px;
+  --cp-space-14: 56px;
+  --cp-space-16: 64px;
+  --cp-space-20: 80px;
+  --cp-space-24: 96px;
+
+  --cp-radius-xs: 4px;
+  --cp-radius-sm: 6px;
+  --cp-radius-md: 8px;
+  --cp-radius-lg: 12px;
+  --cp-radius-xl: 16px;
+  --cp-radius-pill: 999px;
+
+  --cp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --cp-shadow-2: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --cp-shadow-3: 0 8px 20px rgba(0, 0, 0, 0.10);
+  --cp-shadow-4: 0 16px 32px rgba(0, 0, 0, 0.12);
+  --cp-shadow-5: 0 24px 48px rgba(0, 0, 0, 0.16);
+
+  --cp-focus-ring: 0 0 0 3px var(--cp-orange-200);
+}

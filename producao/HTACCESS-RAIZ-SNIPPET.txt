@@ -1,0 +1,17 @@
+# BEGIN Calcula Pensao Landing
+DirectoryIndex index.html index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Mantem a pasta de homologacao isolada do WordPress.
+  RewriteRule ^homologr$ /homologr/ [R=301,L]
+  RewriteRule ^homologr/ - [L]
+
+  # Entrega os arquivos estaticos da landing antes das regras do WordPress.
+  RewriteRule ^calculapensao-assets/ - [L]
+  RewriteRule ^calculapensao-design-tokens\.css$ - [L]
+  RewriteRule ^calculapensao-styles\.min\.css$ - [L]
+  RewriteRule ^calculapensao-script\.js$ - [L]
+</IfModule>
+# END Calcula Pensao Landing
